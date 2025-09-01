@@ -107,7 +107,7 @@ def parse_df_file(df_path):
 
 def generate_main_html(sequences, tables, table_descriptions):
     html = ['<html><head><title>DF Overview</title></head><body>']
-    html.append('<h1>Progress 4GL DF Overview</h1>')
+    html.append('<h1>QAD EAM DF Overview</h1>')
     html.append('<ul>')
     html.append('<li><a href="sequences.html">Sequences</a></li>')
     html.append('</ul>')
