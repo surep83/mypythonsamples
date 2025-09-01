@@ -1,0 +1,43 @@
+<html><head><title>rfq_item</title></head><body>
+<h1>Table: rfq_item</h1>
+<p><b>Description:</b> requisitions that make up quotes</p>
+<table border="1"><tr><th>Field Name</th><th>Type</th><th>Column Label</th><th>Help</th></tr>
+<tr><td>site_code</td><td>character</td><td>Site</td><td>Enter the site for this request for quote or press <help>.</td></tr>
+<tr><td>rfq_no</td><td>integer</td><td>RFQ No</td><td>Enter the request for quote number or press <help>.</td></tr>
+<tr><td>poi_no</td><td>integer</td><td>Req No</td><td>Enter the requisition number for this rfq or press <help>.</td></tr>
+<tr><td>vendor_no</td><td>character</td><td>Vendor No</td><td>Enter the vendor number for this rfq or press <help>.</td></tr>
+<tr><td>include</td><td>logical</td><td>Include</td><td>Enter yes to include on quote for vendor.</td></tr>
+<tr><td>awarded</td><td>logical</td><td>Awarded</td><td>Enter yes to award quote to vendor.</td></tr>
+<tr><td>closed</td><td>logical</td><td>Closed</td><td>Enter yes when vendor has been awarded and PO created.</td></tr>
+<tr><td>bid_qty</td><td>decimal</td><td>Bid Qty</td><td>Enter the bid quantity for this vendor.</td></tr>
+<tr><td>bid_date</td><td>date</td><td>Delivery By</td><td>Enter the delivery date for this bid.</td></tr>
+<tr><td>bid_price</td><td>decimal</td><td>Bid Price</td><td>Enter the bid price.</td></tr>
+<tr><td>award_qty</td><td>decimal</td><td>Award Qty</td><td>Enter the award quantity for this vendor.</td></tr>
+<tr><td>valid_from</td><td>date</td><td>Valid From</td><td>Enter the date from which this quote is valid.</td></tr>
+<tr><td>valid_to</td><td>date</td><td>Valid To</td><td>Enter the date to which this quote is valid.</td></tr>
+<tr><td>valid_for</td><td>integer</td><td>Valid For</td><td>Enter the number of days this quote is valid.</td></tr>
+<tr><td>curr_code</td><td>character</td><td>Currency</td><td>Enter the bid price currency.</td></tr>
+<tr><td>rfq_line</td><td>integer</td><td>RFQ Line</td><td></td></tr>
+<tr><td>bid_expiration_date</td><td>date</td><td>Bid Expiration Date</td><td></td></tr>
+<tr><td>bid_uom</td><td>character</td><td>Bid UOM</td><td>Enter the unit of measure.</td></tr>
+<tr><td>bid_discount_percent</td><td>integer</td><td>Bid Discount Percent</td><td></td></tr>
+<tr><td>buyer_expire_notified</td><td>logical</td><td>Buyer Notified about Expiration</td><td></td></tr>
+<tr><td>vn_part_no</td><td>character</td><td>Vendor Part No</td><td>Enter the vendor part number.</td></tr>
+<tr><td>manuf_code</td><td>character</td><td>Manufacturer</td><td>Enter the manufacturer for this vendor part number.</td></tr>
+<tr><td>manuf_part_no</td><td>character</td><td>Manuf Part No</td><td>Enter the manufacturer part number for this vendor part number.</td></tr>
+<tr><td>manuf_part_desc</td><td>character</td><td>Description</td><td>Enter the part description.</td></tr>
+<tr><td>consign</td><td>logical</td><td>Consignment?</td><td>Select yes if this is a consignment part.</td></tr>
+<tr><td>qty_price_break</td><td>decimal</td><td>Quantity Price Break for Discount</td><td></td></tr>
+<tr><td>date_deliver</td><td>date</td><td>Delivery Date</td><td></td></tr>
+<tr><td>reason_code</td><td>character</td><td>Reason Code</td><td>Enter the new Reason Code</td></tr>
+<tr><td>req_grp_no</td><td>integer</td><td>Multi-Line No</td><td></td></tr>
+<tr><td>line_no</td><td>integer</td><td>Item</td><td>Enter the line item no for this requisition.</td></tr>
+<tr><td>add_id</td><td>character</td><td>Add User ID</td><td></td></tr>
+<tr><td>add_date</td><td>date</td><td>Add Date</td><td></td></tr>
+<tr><td>add_time</td><td>integer</td><td>Add Time</td><td></td></tr>
+<tr><td>chg_id</td><td>character</td><td>Chg User ID</td><td></td></tr>
+<tr><td>chg_date</td><td>date</td><td>Chg Date</td><td></td></tr>
+<tr><td>chg_time</td><td>integer</td><td>Chg Time</td><td></td></tr>
+</table>
+<a href="index.html">Back to Main</a>
+</body></html>

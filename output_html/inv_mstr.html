@@ -1,0 +1,92 @@
+<html><head><title>inv_mstr</title></head><body>
+<h1>Table: inv_mstr</h1>
+<p><b>Description:</b> inventory templates</p>
+<table border="1"><tr><th>Field Name</th><th>Type</th><th>Column Label</th><th>Help</th></tr>
+<tr><td>part_no</td><td>character</td><td>Inv Mstr No</td><td>Enter the new part master number.</td></tr>
+<tr><td>pt_desc</td><td>character</td><td>Description</td><td>Enter the part description.</td></tr>
+<tr><td>uom_code</td><td>character</td><td>Issue UOM</td><td>Enter the unit of measure for issuing this part.</td></tr>
+<tr><td>ord_uom_code</td><td>character</td><td>Order UOM</td><td>Enter the ordering unit of measure for this part.</td></tr>
+<tr><td>type_code</td><td>character</td><td>Type</td><td>Enter the user defined inventory type for this part.</td></tr>
+<tr><td>msds_code</td><td>character</td><td>MSDS No</td><td>Enter the MSDS number for this part.</td></tr>
+<tr><td>comm_code</td><td>character</td><td>Commodity</td><td>Enter the industry std established by purchasing for this part.</td></tr>
+<tr><td>size_code</td><td>character</td><td>Size</td><td>Enter the size for this part.</td></tr>
+<tr><td>pt_status</td><td>character</td><td>Status</td><td>Enter the part status for this part.</td></tr>
+<tr><td>source</td><td>character</td><td>Source</td><td>Select the source for this part.</td></tr>
+<tr><td>pri_vend</td><td>character</td><td>Pri Vendor</td><td></td></tr>
+<tr><td>pri_vpart_no</td><td>character</td><td>Vendor Part No</td><td></td></tr>
+<tr><td>manuf_code</td><td>character</td><td>Manufacturer</td><td></td></tr>
+<tr><td>manuf_part_no</td><td>character</td><td>Manuf Part No</td><td></td></tr>
+<tr><td>area</td><td>character</td><td>Area</td><td>Enter the rebuild area for this part source.</td></tr>
+<tr><td>plan_code</td><td>character</td><td>Planner</td><td>Enter the planner responsible for ordering this part.</td></tr>
+<tr><td>notify</td><td>character</td><td>Notify</td><td>Enter the user to notify if qty drops below required levels.</td></tr>
+<tr><td>notify_below</td><td>logical</td><td>Notify Below</td><td>Enter to notify when below reorder point or safety stock.</td></tr>
+<tr><td>mgt_goal</td><td>decimal</td><td>Mgt Max Qty</td><td>Enter the management approved stock level.</td></tr>
+<tr><td>uom_cost</td><td>decimal</td><td>Cost</td><td>Enter the cost per unit of measure for this part.</td></tr>
+<tr><td>est_freight</td><td>decimal</td><td>Est Freight</td><td>Enter the estimated freight percentage for this part.</td></tr>
+<tr><td>ovhd_code</td><td>character</td><td>OH Group</td><td>Enter the part overhead group to credit on material expense.</td></tr>
+<tr><td>reord_pt</td><td>decimal</td><td>Reorder Point</td><td>Enter a qty stock level trigger point for reordering this part.</td></tr>
+<tr><td>reord_qty</td><td>decimal</td><td>Min Order Qty</td><td>Enter the economic purchase quantity for this part.</td></tr>
+<tr><td>safety_st</td><td>decimal</td><td>Safety Stock</td><td>Enter the minimum needed on hand for this part.</td></tr>
+<tr><td>lead_days</td><td>integer</td><td>Lead Days</td><td>Enter the amount of days necessary to order before receipt.</td></tr>
+<tr><td>dept_code</td><td>character</td><td>Asset Dept</td><td>Enter the asset department for this part.</td></tr>
+<tr><td>cc</td><td>character</td><td>Asset Cost Cntr</td><td>Enter the asset cost center for this part.</td></tr>
+<tr><td>acct_no</td><td>character</td><td>Asset Acct No</td><td>Enter the asset account number for this part.</td></tr>
+<tr><td>sub_acct_no</td><td>character</td><td>Asset Sub Acct</td><td>Enter the asset sub account number for this part.</td></tr>
+<tr><td>dept_exp</td><td>character</td><td>Exp Dept</td><td></td></tr>
+<tr><td>cc_exp</td><td>character</td><td>Exp Cost Center</td><td></td></tr>
+<tr><td>acct_noe</td><td>character</td><td>Exp Acct No</td><td></td></tr>
+<tr><td>sub_acct_noe</td><td>character</td><td>Exp Sub Acct No</td><td></td></tr>
+<tr><td>dept_adj</td><td>character</td><td>Adj Dept</td><td>Enter the adjustment department for this part.</td></tr>
+<tr><td>cc_adj</td><td>character</td><td>Adj Cost Center</td><td>Enter the adjustment cost center for this part.</td></tr>
+<tr><td>acct_adj</td><td>character</td><td>Adj Acct No</td><td>Enter the adjustment account number for this part.</td></tr>
+<tr><td>sub_acct_adj</td><td>character</td><td>Adj Sub Acct No</td><td>Enter the adjustment sub account number.</td></tr>
+<tr><td>serialized</td><td>logical</td><td>Rotable?</td><td>Select yes if this part is rebuilt or has a serial number.</td></tr>
+<tr><td>critical</td><td>logical</td><td>Critical?</td><td>Select yes if this is a critical part.</td></tr>
+<tr><td>consign</td><td>logical</td><td>Consignment?</td><td>Select yes if this is a consignment part.</td></tr>
+<tr><td>ordunit</td><td>decimal</td><td>Order Unit</td><td>Enter the amount in units to order for this part.</td></tr>
+<tr><td>phy_due</td><td>date</td><td>Physical Due</td><td>Enter the day to perform the next physical inventory.</td></tr>
+<tr><td>weight</td><td>decimal</td><td>Weight</td><td>Weight</td></tr>
+<tr><td>wt_uom</td><td>character</td><td>Weight UOM</td><td>Enter the UOM for the gross weight of this part.</td></tr>
+<tr><td>abc</td><td>character</td><td>ABC Code</td><td>Select A, B, or C for the specified ABC analysis for this part.</td></tr>
+<tr><td>class_code</td><td>character</td><td>Class</td><td>Enter the user defined inventory classification code.</td></tr>
+<tr><td>buyer</td><td>character</td><td>Buyer</td><td>Enter the buyer responsible for this part.</td></tr>
+<tr><td>catalog</td><td>character</td><td>Catalog</td><td>Enter the catalog for this part.</td></tr>
+<tr><td>sub_catalog</td><td>character</td><td>Sub Catalog</td><td>Enter the sub catalog for this part.</td></tr>
+<tr><td>po_text</td><td>character</td><td>PO Text</td><td>Enter the text to appear on a PO when this part is purchased.</td></tr>
+<tr><td>sole_source</td><td>logical</td><td>Sole Source?</td><td>Select yes if this part is sole source.</td></tr>
+<tr><td>warrantied</td><td>logical</td><td>Warrantied?</td><td>Select yes if this part may be warrantied.</td></tr>
+<tr><td>taxable</td><td>logical</td><td>Taxable?</td><td>Select yes if this part is taxable.</td></tr>
+<tr><td>tax_code</td><td>character</td><td>Tax Code</td><td>Enter the tax code for this part.</td></tr>
+<tr><td>char_1</td><td>character</td><td></td><td></td></tr>
+<tr><td>char_2</td><td>character</td><td></td><td>Enter data or press ESC to end.</td></tr>
+<tr><td>char_3</td><td>character</td><td></td><td>Enter data or press ESC to end.</td></tr>
+<tr><td>char_4</td><td>character</td><td></td><td>Enter data or press ESC to end.</td></tr>
+<tr><td>log_1</td><td>logical</td><td></td><td>Enter data or press ESC to end.</td></tr>
+<tr><td>date_1</td><td>date</td><td></td><td>Enter data or press ESC to end.</td></tr>
+<tr><td>dec_1</td><td>decimal</td><td></td><td>Enter data or press ESC to end.</td></tr>
+<tr><td>dec_2</td><td>decimal</td><td></td><td>Enter data or press ESC to end.</td></tr>
+<tr><td>int_1</td><td>integer</td><td></td><td>Enter data or press ESC to end.</td></tr>
+<tr><td>int_2</td><td>integer</td><td></td><td>Enter data or press ESC to end.</td></tr>
+<tr><td>add_id</td><td>character</td><td>Add User ID</td><td></td></tr>
+<tr><td>add_date</td><td>date</td><td>Add Date</td><td></td></tr>
+<tr><td>add_time</td><td>integer</td><td>Add Time</td><td></td></tr>
+<tr><td>chg_date</td><td>date</td><td>Chg Date</td><td></td></tr>
+<tr><td>chg_id</td><td>character</td><td>Chg User ID</td><td></td></tr>
+<tr><td>chg_time</td><td>integer</td><td>Chg Time</td><td></td></tr>
+<tr><td>cust_chr01</td><td>character</td><td></td><td></td></tr>
+<tr><td>cust_chr02</td><td>character</td><td></td><td></td></tr>
+<tr><td>cust_chr03</td><td>character</td><td></td><td></td></tr>
+<tr><td>cust_chr04</td><td>character</td><td></td><td></td></tr>
+<tr><td>cust_dec01</td><td>decimal</td><td></td><td></td></tr>
+<tr><td>cust_dec02</td><td>decimal</td><td></td><td></td></tr>
+<tr><td>cust_dec03</td><td>decimal</td><td></td><td></td></tr>
+<tr><td>cust_dec04</td><td>decimal</td><td></td><td></td></tr>
+<tr><td>cust_dte01</td><td>date</td><td></td><td></td></tr>
+<tr><td>cust_log01</td><td>logical</td><td></td><td></td></tr>
+<tr><td>exp_site</td><td>character</td><td>Expense Site</td><td></td></tr>
+<tr><td>auto_iss</td><td>logical</td><td>Auto Issue?</td><td>Select yes to default Auto Issue? to yes for reqs for this part</td></tr>
+<tr><td>tclass_code</td><td>character</td><td>Tax Class</td><td>Enter the tax class for this part.</td></tr>
+<tr><td>usage_code</td><td>character</td><td>Tax Usage</td><td>Enter the tax usage for this part.</td></tr>
+</table>
+<a href="index.html">Back to Main</a>
+</body></html>

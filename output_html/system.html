@@ -1,0 +1,174 @@
+<html><head><title>system</title></head><body>
+<h1>Table: system</h1>
+<p><b>Description:</b> system control file</p>
+<table border="1"><tr><th>Field Name</th><th>Type</th><th>Column Label</th><th>Help</th></tr>
+<tr><td>serial_no</td><td>character</td><td>Serial No</td><td></td></tr>
+<tr><td>mfg_upd_po</td><td>character</td><td>Create PO When?</td><td>Select at what point to create a purchase order in MFG/PRO.</td></tr>
+<tr><td>name2</td><td>character</td><td>Company Name</td><td>Enter the company name to appear on management reports.</td></tr>
+<tr><td>name3</td><td>character</td><td>Company Name</td><td>Enter the company name to appear on management reports.</td></tr>
+<tr><td>shift</td><td>logical</td><td>shift to workday</td><td>Shift scheduled PM date to next workday if not a workday?</td></tr>
+<tr><td>name4</td><td>character</td><td>Company Name</td><td>Enter the company name to appear on management reports.</td></tr>
+<tr><td>media_loc</td><td>character</td><td>Media Path</td><td>Enter the path where media is installed.</td></tr>
+<tr><td>base_curr</td><td>character</td><td>Base Currency</td><td>Enter the base currency for MLS.</td></tr>
+<tr><td>mfg_live</td><td>character</td><td>Update</td><td>Select Live to update MFG/PRO real time or Batch in batch mode.</td></tr>
+<tr><td>mfg_validate</td><td>logical</td><td>Validate When Posting?</td><td>Select yes to validate GL transactions when posting to MFG/PRO.</td></tr>
+<tr><td>mfg_error</td><td>logical</td><td>Display Error?</td><td>Select yes to display errors when validating GL postings.</td></tr>
+<tr><td>mfg_print</td><td>character</td><td>Print Control</td><td>Enter the MFG/PRO print control parameters.</td></tr>
+<tr><td>name5</td><td>character</td><td>Company Name</td><td>Enter the company name to appear on management reports.</td></tr>
+<tr><td>ver_no</td><td>character</td><td>Version No</td><td>Enter program serial number.</td></tr>
+<tr><td>name</td><td>character</td><td>Company Name</td><td>Enter the company name to which MLS is registered.</td></tr>
+<tr><td>req_auto</td><td>logical</td><td>Create Reqs?</td><td>Select yes to auto create reqs when reserving and qty is short.</td></tr>
+<tr><td>prompt_rev_po</td><td>logical</td><td>Prompt for Rev?</td><td></td></tr>
+<tr><td>cons_res</td><td>logical</td><td>Cons Reserves?</td><td>Select yes to consider reserves in stock replenishment.</td></tr>
+<tr><td>name6</td><td>character</td><td>Company Name</td><td>Enter the company name to appear on management reports.</td></tr>
+<tr><td>name7</td><td>character</td><td>Company Name</td><td>Enter the company name to appear on management reports.</td></tr>
+<tr><td>cons_short</td><td>logical</td><td>Cons Res/Short?</td><td>Select yes to consider reserves/shorts in stock replenishment.</td></tr>
+<tr><td>cons_direct</td><td>logical</td><td>Cons Dir Chg?</td><td>Select yes to consider reserved orders in stock replenishment.</td></tr>
+<tr><td>users</td><td>integer</td><td>Number of users</td><td>Number of users allowed at one time (set to 9999 if unlimited)</td></tr>
+<tr><td>buyer_percent</td><td>integer</td><td>Buyer Limit</td><td>Enter % that a buyer can increase the req cost w/o re-routing.</td></tr>
+<tr><td>buyer_dollar</td><td>integer</td><td>Buyer Limit</td><td>Enter amount that a buyer can increase req cost w/o re-routing.</td></tr>
+<tr><td>sfiscal</td><td>date</td><td>Start Fiscal Yr</td><td>Enter the fiscal year start date.</td></tr>
+<tr><td>po_reopen</td><td>logical</td><td>Reopen PO/Reqs?</td><td>Select yes to allow the reopening of purchase orders and reqs.</td></tr>
+<tr><td>rec_percent</td><td>integer</td><td>Receipt Limit</td><td>Enter % that can be received above the req qty ordered.</td></tr>
+<tr><td>rec_dollar</td><td>integer</td><td>Receipt Limit</td><td>Enter amount that can be received above the req qty ordered.</td></tr>
+<tr><td>woauth</td><td>logical</td><td>WO Auth?</td><td>Select yes to require authorization before charging cost to WOs</td></tr>
+<tr><td>cost</td><td>character</td><td>Inv Cost Mthd</td><td>Select the method for calculating inventory costs.</td></tr>
+<tr><td>reserve</td><td>logical</td><td>Reserve Inv</td><td>Select yes to automatically reserve inventory for work orders.</td></tr>
+<tr><td>mfgpro</td><td>logical</td><td>MFG/PRO Interface?</td><td>Select yes to interface with MFG/PRO.</td></tr>
+<tr><td>MinBatchAgents</td><td>integer</td><td>Min Agents</td><td>Enter the minimum number of batch agents.</td></tr>
+<tr><td>MaxBatchAgents</td><td>integer</td><td>Max Agents</td><td>Enter the maximum number of batch agents.</td></tr>
+<tr><td>bemcap</td><td>logical</td><td>BEMCAP</td><td>Bemcap Module (fleet utilization)?</td></tr>
+<tr><td>add_date</td><td>date</td><td>Add Date</td><td></td></tr>
+<tr><td>add_id</td><td>character</td><td>Add User ID</td><td></td></tr>
+<tr><td>add_time</td><td>integer</td><td>Add Time</td><td></td></tr>
+<tr><td>chg_date</td><td>date</td><td>Chg Date</td><td></td></tr>
+<tr><td>chg_id</td><td>character</td><td>Chg User ID</td><td></td></tr>
+<tr><td>chg_time</td><td>integer</td><td>Chg Time</td><td></td></tr>
+<tr><td>post_equip</td><td>logical</td><td>Post Equip List?</td><td>Select yes to post issued parts to the equipment BOM.</td></tr>
+<tr><td>pn_part_no</td><td>logical</td><td>Part No</td><td></td></tr>
+<tr><td>pn_part_nom</td><td>character</td><td>Mthd</td><td>Enter E for Equal, B for Begins with, or M for Matches.</td></tr>
+<tr><td>pn_alt_part</td><td>logical</td><td>Alt Part No</td><td></td></tr>
+<tr><td>pn_alt_partm</td><td>character</td><td>Mthd</td><td>Enter E for Equal, B for Begins with, or M for Matches.</td></tr>
+<tr><td>pn_alt_table</td><td>logical</td><td>Alt Part Table</td><td></td></tr>
+<tr><td>pn_alt_tablem</td><td>character</td><td>Mthd</td><td>Enter E for Equal, B for Begins with, or M for Matches.</td></tr>
+<tr><td>pd_pt_desc</td><td>logical</td><td>Part Desc</td><td></td></tr>
+<tr><td>pd_pt_descm</td><td>character</td><td>Mthd</td><td>Enter E for Equal, B for Begins with, or M for Matches.</td></tr>
+<tr><td>pd_alt_desc</td><td>logical</td><td>Alt Description</td><td></td></tr>
+<tr><td>pd_alt_descm</td><td>character</td><td>Mthd</td><td>Enter E for Equal, B for Begins with, or M for Matches.</td></tr>
+<tr><td>pd_ext_desc</td><td>logical</td><td>Ext Desc</td><td></td></tr>
+<tr><td>pd_ext_descm</td><td>character</td><td>Mthd</td><td>Enter E for Equal, B for Begins with, or M for Matches.</td></tr>
+<tr><td>co_pt_local</td><td>logical</td><td>Part Local</td><td></td></tr>
+<tr><td>co_pt_localm</td><td>character</td><td>Mthd</td><td>Enter E for Equal, B for Begins with, or M for Matches.</td></tr>
+<tr><td>co_pt_living</td><td>logical</td><td>Part Living</td><td></td></tr>
+<tr><td>co_pt_livingm</td><td>character</td><td>Mthd</td><td>Enter E for Equal, B for Begins with, or M for Matches.</td></tr>
+<tr><td>co_group</td><td>logical</td><td>NATO Grp/Class</td><td></td></tr>
+<tr><td>co_groupm</td><td>character</td><td>Mthd</td><td>Enter E for Equal, B for Begins with, or M for Matches.</td></tr>
+<tr><td>co_name</td><td>logical</td><td>NATO INC Name</td><td></td></tr>
+<tr><td>co_namem</td><td>character</td><td>Mthd</td><td>Enter E for Equal, B for Begins with, or M for Matches.</td></tr>
+<tr><td>co_global</td><td>logical</td><td>NATO INC Global</td><td></td></tr>
+<tr><td>co_globalm</td><td>character</td><td>Mthd</td><td>Enter E for Equal, B for Begins with, or M for Matches.</td></tr>
+<tr><td>vn_pt_pri</td><td>logical</td><td>Parts Pri Vend</td><td></td></tr>
+<tr><td>vn_pt_prim</td><td>character</td><td>Mthd</td><td>Enter E for Equal, B for Begins with, or M for Matches.</td></tr>
+<tr><td>vn_part_vn</td><td>logical</td><td>Vend Part (Vend)</td><td></td></tr>
+<tr><td>vn_part_vnm</td><td>character</td><td>Mthd</td><td>Enter E for Equal, B for Begins with, or M for Matches.</td></tr>
+<tr><td>vn_part_pt</td><td>logical</td><td>Vend Part (Part)</td><td></td></tr>
+<tr><td>vn_part_ptm</td><td>character</td><td>Mthd</td><td>Enter E for Equal, B for Begins with, or M for Matches.</td></tr>
+<tr><td>vn_part_mfg</td><td>logical</td><td>Vend Part (Mfg)</td><td></td></tr>
+<tr><td>vn_part_mfgm</td><td>character</td><td>Mthd</td><td>Enter E for Equal, B for Begins with, or M for Matches.</td></tr>
+<tr><td>currency</td><td>character</td><td>Currency</td><td>Enter the currency to use, e.g. $ for dollars.</td></tr>
+<tr><td>wait_hrs</td><td>integer</td><td>Wait Hrs</td><td>Enter no of hours to wait per user for no response to routing.</td></tr>
+<tr><td>wk_sun</td><td>logical</td><td>Sunday</td><td>Is Sunday a maintenance dept work day?</td></tr>
+<tr><td>wk_mon</td><td>logical</td><td>Monday</td><td>Is Monday a maintenance dept work day?</td></tr>
+<tr><td>wk_tues</td><td>logical</td><td>Tuesday</td><td>Is Tuesday a maintenance dept work day?</td></tr>
+<tr><td>wk_wed</td><td>logical</td><td>Wednesday</td><td>Is Wednesday a maintenance dept work day?</td></tr>
+<tr><td>wk_thurs</td><td>logical</td><td>Thursday</td><td>Is Thursday a maintenance dept work day?</td></tr>
+<tr><td>wk_fri</td><td>logical</td><td>Friday</td><td>Is Friday a maintenance dept work day?</td></tr>
+<tr><td>wk_sat</td><td>logical</td><td>Saturday</td><td>Is Saturday a maintenance dept work day?</td></tr>
+<tr><td>pm_wk_day</td><td>logical</td><td>PMs on Work Days</td><td>Should PMs be shifted to maintenance dept work days?</td></tr>
+<tr><td>eaonet_pos</td><td>character</td><td></td><td></td></tr>
+<tr><td>a_perc</td><td>integer</td><td>A Percent</td><td>Enter the percentage of parts value to be type A.</td></tr>
+<tr><td>a_days</td><td>integer</td><td>A Days</td><td>Enter the number of days between phys inv for type A parts.</td></tr>
+<tr><td>b_perc</td><td>integer</td><td>B Percent</td><td>Enter the percentage of parts value to be type B.</td></tr>
+<tr><td>b_days</td><td>integer</td><td>B Days</td><td>Enter the number of days between phys inv for type B parts.</td></tr>
+<tr><td>c_perc</td><td>integer</td><td>C Percent</td><td>Enter the percentage of parts value to be type C.</td></tr>
+<tr><td>c_days</td><td>integer</td><td>C Days</td><td>Enter the number of days between phys inv for type C parts.</td></tr>
+<tr><td>draw_dir</td><td>character</td><td>Dwg Directory</td><td>Enter the default directory for drawings.</td></tr>
+<tr><td>prompt_rev</td><td>logical</td><td>Prompt for Rev?</td><td></td></tr>
+<tr><td>nstock_uom</td><td>character</td><td>NStock UOM</td><td>Enter the default nonstock UOM for ordering parts.</td></tr>
+<tr><td>wo_reopen</td><td>logical</td><td>Reopen WO's?</td><td>Select 'yes' to allow the reopening of work orders.</td></tr>
+<tr><td>transit</td><td>logical</td><td>Transit</td><td>Select yes to have inventory relocations go through transit.</td></tr>
+<tr><td>purge_hrs</td><td>integer</td><td>Batch Purge Hrs</td><td>Enter the no of hours history to keep when purging batch jobs.</td></tr>
+<tr><td>server_name</td><td>character</td><td>SMTP Server</td><td>Enter the SMTP server for sending and receiving email.</td></tr>
+<tr><td>email</td><td>character</td><td>System Mail ID</td><td>Enter the email address for system-generated mail.</td></tr>
+<tr><td>cust_chr01</td><td>character</td><td></td><td></td></tr>
+<tr><td>cust_chr02</td><td>character</td><td></td><td></td></tr>
+<tr><td>cust_chr03</td><td>character</td><td></td><td></td></tr>
+<tr><td>cust_chr04</td><td>character</td><td></td><td></td></tr>
+<tr><td>cust_dec01</td><td>decimal</td><td></td><td></td></tr>
+<tr><td>cust_dec02</td><td>decimal</td><td></td><td></td></tr>
+<tr><td>cust_dec03</td><td>decimal</td><td></td><td></td></tr>
+<tr><td>cust_dec04</td><td>decimal</td><td></td><td></td></tr>
+<tr><td>cust_dte01</td><td>date</td><td></td><td></td></tr>
+<tr><td>cust_log01</td><td>logical</td><td></td><td></td></tr>
+<tr><td>mfg_cd_type</td><td>character</td><td>Clause Type</td><td>Enter the type of clauses to download from MFG/PRO or * for all</td></tr>
+<tr><td>mfg_ship_to</td><td>character</td><td>Ship To</td><td>Enter the MFG/PRO address type given to ship to addresses.</td></tr>
+<tr><td>mfg_bill_to</td><td>character</td><td>Bill To</td><td>Enter the MFG/PRO address type given to bill to addresses.</td></tr>
+<tr><td>prtdays</td><td>integer</td><td></td><td></td></tr>
+<tr><td>any_buyer</td><td>logical</td><td>Any Buyer?</td><td>Select yes to allow any buyer to modify an authorized PO or req</td></tr>
+<tr><td>mand_color</td><td>integer</td><td>Mandatory Color</td><td>Select the color for mandatory field labels.</td></tr>
+<tr><td>patch</td><td>character</td><td></td><td></td></tr>
+<tr><td>diff_period</td><td>logical</td><td>Diff Acct Period</td><td>Select yes to allow transactions in different acct periods.</td></tr>
+<tr><td>wph_reopen</td><td>logical</td><td>Reopen Stores?</td><td>Select yes to allow the reopening of stores requisition lists.</td></tr>
+<tr><td>pr_reopen</td><td>logical</td><td>Reopen Projects?</td><td>Select yes to allow the reopening of projects and jobs.</td></tr>
+<tr><td>rec_limit</td><td>logical</td><td>Receipt Limit</td><td>Select yes to enter a receipt limit.</td></tr>
+<tr><td>InitBatchAgents</td><td>integer</td><td>Init Agents</td><td>Enter the initial number of batch agents.</td></tr>
+<tr><td>inc_proj_on_iss</td><td>character</td><td>Inc Proj on Iss</td><td>Select when to include the Project No for issue transactions.</td></tr>
+<tr><td>inc_proj_on_rec</td><td>character</td><td>Inc Proj on Rec</td><td>Select when to include the Project No for receipt transactions.</td></tr>
+<tr><td>mfg_gtm</td><td>logical</td><td>Use GTM?</td><td>Select yes if using global tax management in MFG/PRO.</td></tr>
+<tr><td>mfg_tax_hist</td><td>logical</td><td>Tax History?</td><td>Select yes to create tax history records in MFG/PRO.</td></tr>
+<tr><td>nstock_bom</td><td>logical</td><td>NStock BOM?</td><td>Select yes to post issued nonstock parts to the equipment BOM.</td></tr>
+<tr><td>mfg_custom_oper</td><td>character</td><td>Custom Field</td><td></td></tr>
+<tr><td>mfg_create_conv</td><td>logical</td><td>Create Conv?</td><td></td></tr>
+<tr><td>mfg_op_trans</td><td>integer</td><td>Trans</td><td></td></tr>
+<tr><td>srauth</td><td>logical</td><td>SR Auth?</td><td>Select yes to require authorization before SRs can become WOs.</td></tr>
+<tr><td>rev_list</td><td>logical</td><td>Mstr List Rev?</td><td>Select yes to automatically create revisions for master lists.</td></tr>
+<tr><td>restrict_pwd</td><td>logical</td><td>Restrict Pwd?</td><td>Select yes to add restrictions to user passwords.</td></tr>
+<tr><td>pwd_min_length</td><td>integer</td><td>Min Length</td><td>Enter the minimum length for user passwords.</td></tr>
+<tr><td>pwd_exp_days</td><td>integer</td><td>Exp Days</td><td>Enter the number of days at which user passwords should expire.</td></tr>
+<tr><td>pwd_purge_days</td><td>integer</td><td>Purge Days</td><td>Enter number of days of history to keep for user passwords.</td></tr>
+<tr><td>upd_recv</td><td>logical</td><td>Upd Receiver?</td><td>Select yes to allow the update of purchasing receivers.</td></tr>
+<tr><td>mfg_use_eir</td><td>logical</td><td>Use EIR?</td><td>Select yes to use MFG/PRO's EIR account for receipt credits.</td></tr>
+<tr><td>software_recv</td><td>character</td><td>Receiver?</td><td>Select the software to use for receiver number generation.</td></tr>
+<tr><td>recv_prefix</td><td>character</td><td>MLS Recv Prefix</td><td>Enter the prefix for MLS receiver numbers.</td></tr>
+<tr><td>mfg_budg_code</td><td>character</td><td>Budget Code</td><td>Enter the MFG/PRO budget code to use on budget download.</td></tr>
+<tr><td>cim_rdg_usg</td><td>character</td><td>CIM Load</td><td>Select which value should be read from the CIM load data file.</td></tr>
+<tr><td>inc_proj_on_labor</td><td>character</td><td>Inc Proj on Labor</td><td>Select when to include the Project No for labor transactions.</td></tr>
+<tr><td>mfg_db_name</td><td>character</td><td>Database Name</td><td>Enter MFG/PRO db name if multiple MFG/PRO databases are in use.</td></tr>
+<tr><td>mfg_domain</td><td>character</td><td>Domain</td><td>Enter the MFG/PRO domain to use (applies to eB2.1 and higher).</td></tr>
+<tr><td>deployed</td><td>logical</td><td>Deployed</td><td></td></tr>
+<tr><td>wait_minutes</td><td>integer</td><td>Wait Minutes</td><td>Enter no of minutes to wait per user for no response to routing</td></tr>
+<tr><td>last_memcheck</td><td>datetime</td><td>Last Memcheck</td><td></td></tr>
+<tr><td>host_name</td><td>character</td><td>Telnet Host Name</td><td></td></tr>
+<tr><td>port_no</td><td>integer</td><td>Telnet Port</td><td></td></tr>
+<tr><td>script_timeout</td><td>integer</td><td>Script Timeout</td><td></td></tr>
+<tr><td>idle_timeout</td><td>integer</td><td>Idle Timeout</td><td></td></tr>
+<tr><td>pattern_1</td><td>character</td><td>Script 1 Pattern</td><td></td></tr>
+<tr><td>value_1</td><td>character</td><td>Script 1 Value</td><td></td></tr>
+<tr><td>pattern_2</td><td>character</td><td>Script 2 Pattern</td><td></td></tr>
+<tr><td>value_2</td><td>character</td><td>Script 2 Value</td><td></td></tr>
+<tr><td>pattern_3</td><td>character</td><td>Script 3 Pattern</td><td></td></tr>
+<tr><td>value_3</td><td>character</td><td>Script 3 Value</td><td></td></tr>
+<tr><td>pattern_4</td><td>character</td><td>Script 4 Pattern</td><td></td></tr>
+<tr><td>value_4</td><td>character</td><td>Script 4 Value</td><td></td></tr>
+<tr><td>min_connections</td><td>integer</td><td>Minimum Telnet Connections</td><td></td></tr>
+<tr><td>max_connections</td><td>integer</td><td>Maximum Telnet Connections</td><td></td></tr>
+<tr><td>host_os</td><td>character</td><td>Host OS</td><td></td></tr>
+<tr><td>terminal_login</td><td>character</td><td>Terminal Login</td><td></td></tr>
+<tr><td>terminal_passwd</td><td>character</td><td>Terminal Password</td><td></td></tr>
+<tr><td>terminal_domain</td><td>character</td><td>Terminal Domain</td><td></td></tr>
+<tr><td>IsEnabled</td><td>logical</td><td>Is Enabled</td><td></td></tr>
+<tr><td>appr_limit_curr</td><td>character</td><td>Approval Limit Currency</td><td></td></tr>
+<tr><td>AlwaysYes</td><td>logical</td><td>AlwaysYes</td><td></td></tr>
+</table>
+<a href="index.html">Back to Main</a>
+</body></html>

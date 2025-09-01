@@ -1,0 +1,71 @@
+<html><head><title>Z_user</title></head><body>
+<h1>Table: Z_user</h1>
+<p><b>Description:</b> user master</p>
+<table border="1"><tr><th>Field Name</th><th>Type</th><th>Column Label</th><th>Help</th></tr>
+<tr><td>user_id</td><td>character</td><td>User ID</td><td>Enter the new user ID.</td></tr>
+<tr><td>name</td><td>character</td><td>Name</td><td>Name of user.</td></tr>
+<tr><td>password</td><td>character</td><td>!Password</td><td>Password for this user.</td></tr>
+<tr><td>pr_id</td><td>character</td><td>Printer ID</td><td>Enter the default printer for this user.</td></tr>
+<tr><td>language</td><td>character</td><td>Language</td><td>Enter the default language for the user.</td></tr>
+<tr><td>add_id</td><td>character</td><td>Added By</td><td>User ID of person who added the record.</td></tr>
+<tr><td>add_date</td><td>date</td><td>Add Date</td><td></td></tr>
+<tr><td>chg_date</td><td>date</td><td>Change Date</td><td></td></tr>
+<tr><td>chg_id</td><td>character</td><td>Changed By</td><td>User ID of person who changed the record.</td></tr>
+<tr><td>add_time</td><td>integer</td><td></td><td></td></tr>
+<tr><td>chg_time</td><td>integer</td><td></td><td></td></tr>
+<tr><td>menu_name</td><td>character</td><td>Menu Name</td><td>Starting menu for user.</td></tr>
+<tr><td>del_msg</td><td>logical</td><td>Del Msg?</td><td>Select yes or no to display delete confirmation message.</td></tr>
+<tr><td>req_limit</td><td>decimal</td><td>Req Exp Limit</td><td>Enter the requisition spending limit for this user.</td></tr>
+<tr><td>po_limit</td><td>decimal</td><td>PO Limit</td><td>Enter the purchase order spending limit for this user.</td></tr>
+<tr><td>req_cap_limit</td><td>decimal</td><td>Req Cap Limit</td><td>Enter the requisition capital spending limit for this user.</td></tr>
+<tr><td>filt_grp_no</td><td>character</td><td>Filter Grp No</td><td>Enter the filter group number for this user.</td></tr>
+<tr><td>emp_no</td><td>character</td><td>Emp No</td><td>Enter the employee number for this user.</td></tr>
+<tr><td>send_email</td><td>logical</td><td>Equipment exceeds spending limit</td><td>Select to receive mail when equipment exceeds spending limit.</td></tr>
+<tr><td>send_imail</td><td>logical</td><td>Inventory drops below designated point</td><td>Select to receive mail when inv drops below designated point.</td></tr>
+<tr><td>send_wmail</td><td>logical</td><td>Work order status changes</td><td>Select to receive mail when a work order status changes.</td></tr>
+<tr><td>send_amail</td><td>logical</td><td>Equipment is left as unacceptable</td><td>Select to receive mail when equipment is left as unacceptable.</td></tr>
+<tr><td>send_vmail</td><td>logical</td><td>PM due</td><td>Select to receive mail when a PM comes due.</td></tr>
+<tr><td>send_cmail</td><td>logical</td><td>Inventory received</td><td>Select to receive mail when inventory has been received.</td></tr>
+<tr><td>send_fmail</td><td>logical</td><td>Failure expected before next PM</td><td>Select yes to receive mail when failure is expected before PM.</td></tr>
+<tr><td>send_mmail</td><td>logical</td><td>Requisition put on order</td><td>Select yes to receive mail when requisition is put on order.</td></tr>
+<tr><td>send_mmail2</td><td>logical</td><td>Requisition due date changes</td><td>Select yes to receive mail when requisition due date changes.</td></tr>
+<tr><td>send_bmail</td><td>logical</td><td>Blanket purchase order expires</td><td>Select yes to receive mail when blanket purchase orders expire.</td></tr>
+<tr><td>send_bmail2</td><td>logical</td><td>Requisition is canceled/closed</td><td>Select yes to receive mail when a requisition is canceled.</td></tr>
+<tr><td>send_cmail2</td><td>logical</td><td>Inventory returned to vendor</td><td>Select to receive mail when inventory is returned to vendor.</td></tr>
+<tr><td>email</td><td>character</td><td>Email</td><td>Enter the email address for this user.</td></tr>
+<tr><td>send_smtp</td><td>logical</td><td>Receive Email?</td><td>Select yes to receive MLS mail through internet mail.</td></tr>
+<tr><td>over_del</td><td>logical</td><td></td><td>Select yes to allow this user to override integrity on delete.</td></tr>
+<tr><td>send_smail</td><td>logical</td><td>Service request status changes</td><td>Select to receive mail when service request statuses change.</td></tr>
+<tr><td>send_jmail</td><td>logical</td><td>Project status changes</td><td>Select to receive mail when a project status changes.</td></tr>
+<tr><td>pr_limit</td><td>decimal</td><td>Proj Limit</td><td>Enter the project spending limit for this user.</td></tr>
+<tr><td>send_rmail</td><td>logical</td><td>Warranty warning date is reached</td><td>Select to receive mail when warranty warning date is reached.</td></tr>
+<tr><td>print_title</td><td>logical</td><td>Print Title Page?</td><td>Select yes to print the title page for reports .</td></tr>
+<tr><td>lang_code</td><td>character</td><td>Language</td><td>Enter the default language code for this user.</td></tr>
+<tr><td>use_po_limit</td><td>logical</td><td>PO Limit?</td><td>Select yes to enter a PO spending limit for this user.</td></tr>
+<tr><td>use_req_limit</td><td>logical</td><td>Req Limit?</td><td>Select yes to enter requisition spending limits for this user.</td></tr>
+<tr><td>use_pr_limit</td><td>logical</td><td>Proj Limit?</td><td>Select yes to enter a project spending limit for this user.</td></tr>
+<tr><td>cust_chr01</td><td>character</td><td></td><td></td></tr>
+<tr><td>cust_chr02</td><td>character</td><td></td><td></td></tr>
+<tr><td>cust_dec01</td><td>decimal</td><td></td><td></td></tr>
+<tr><td>cust_dec02</td><td>decimal</td><td></td><td></td></tr>
+<tr><td>cust_dte01</td><td>date</td><td></td><td></td></tr>
+<tr><td>cust_log01</td><td>logical</td><td></td><td></td></tr>
+<tr><td>cust_log02</td><td>logical</td><td></td><td></td></tr>
+<tr><td>cust_log03</td><td>logical</td><td></td><td></td></tr>
+<tr><td>other_labor</td><td>logical</td><td>Other Labor?</td><td>Select no to restrict user to only post/rev labor for himself.</td></tr>
+<tr><td>orig_notify</td><td>character</td><td>Orig Notify</td><td>Enter the user to notify when this user adds service requests.</td></tr>
+<tr><td>acct_locked</td><td>logical</td><td>Locked</td><td></td></tr>
+<tr><td>send_rqmail</td><td>logical</td><td>Requisition cost is changed after receipt</td><td>Select to receive mail when req cost is changed after receipt.</td></tr>
+<tr><td>pre_filter</td><td>logical</td><td>Pre-filter?</td><td>Select yes to automatically pre-filter browses for all screens.</td></tr>
+<tr><td>req_ovr_limit</td><td>decimal</td><td>Req Over Limit</td><td>Enter the requisition over budget spending limit for this user.</td></tr>
+<tr><td>horizontal_approver</td><td>logical</td><td></td><td></td></tr>
+<tr><td>use_bo_limit</td><td>logical</td><td>BO Limit?</td><td>Select yes to enter a BO spending limit for this user.</td></tr>
+<tr><td>bo_limit</td><td>decimal</td><td>BO Limit</td><td>Enter the blanket order spending limit for this user.</td></tr>
+<tr><td>margin_perc</td><td>decimal</td><td>Margin %</td><td></td></tr>
+<tr><td>margin_approver</td><td>logical</td><td>Margin Approver</td><td></td></tr>
+<tr><td>passwrd_cntr</td><td>integer</td><td>Password Counter</td><td></td></tr>
+<tr><td>active</td><td>logical</td><td>Active?</td><td>Enter 'yes' to make this user active.</td></tr>
+<tr><td>req_proj_limit</td><td>decimal</td><td>Req Proj Limit</td><td>Enter the requisition project spending limit for this user.</td></tr>
+</table>
+<a href="index.html">Back to Main</a>
+</body></html>

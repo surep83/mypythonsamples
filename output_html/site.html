@@ -1,0 +1,222 @@
+<html><head><title>site</title></head><body>
+<h1>Table: site</h1>
+<p><b>Description:</b> site codes</p>
+<table border="1"><tr><th>Field Name</th><th>Type</th><th>Column Label</th><th>Help</th></tr>
+<tr><td>site_code</td><td>character</td><td>Site</td><td>Enter the new site code.</td></tr>
+<tr><td>description</td><td>character</td><td>Description</td><td>Enter the site description.</td></tr>
+<tr><td>labor_ovhd</td><td>character</td><td>OH Group</td><td>Enter site default overhead group to credit on labor expense.</td></tr>
+<tr><td>ent_code</td><td>character</td><td>Entity</td><td>Enter the entity for this site.</td></tr>
+<tr><td>add_id</td><td>character</td><td>Add User ID</td><td></td></tr>
+<tr><td>add_date</td><td>date</td><td>Add Date</td><td></td></tr>
+<tr><td>add_time</td><td>integer</td><td>Add Time</td><td></td></tr>
+<tr><td>chg_id</td><td>character</td><td>Chg User ID</td><td></td></tr>
+<tr><td>chg_date</td><td>date</td><td>Chg Date</td><td></td></tr>
+<tr><td>chg_time</td><td>integer</td><td>Chg Time</td><td></td></tr>
+<tr><td>cust_chr01</td><td>character</td><td></td><td></td></tr>
+<tr><td>cust_chr02</td><td>character</td><td></td><td></td></tr>
+<tr><td>cust_chr03</td><td>character</td><td></td><td></td></tr>
+<tr><td>cust_chr04</td><td>character</td><td></td><td></td></tr>
+<tr><td>cust_dec01</td><td>decimal</td><td></td><td></td></tr>
+<tr><td>cust_dec02</td><td>decimal</td><td></td><td></td></tr>
+<tr><td>posd_cc</td><td>character</td><td>Stock CC</td><td>Enter the default cost center for stock part PO receiving debit</td></tr>
+<tr><td>posd_acct</td><td>character</td><td>Stock Acct No</td><td>Enter the default acct no for stock part PO receiving debit.</td></tr>
+<tr><td>posd_sub</td><td>character</td><td>Stock Sub Acct</td><td>Enter the default sub acct no for stock part PO receiving debit</td></tr>
+<tr><td>poc_cc</td><td>character</td><td>AP Liability CC</td><td>Enter the default cost center for PO receiving credit.</td></tr>
+<tr><td>poc_acct</td><td>character</td><td>AP Liab Acct No</td><td>Enter the default acct no for PO receiving credit.</td></tr>
+<tr><td>poc_sub</td><td>character</td><td>AP Liab Sub</td><td>Enter the default sub acct no for PO receiving credit.</td></tr>
+<tr><td>pond_cc</td><td>character</td><td>NStock CC</td><td>Enter default cost center for non stock part PO receiving debit</td></tr>
+<tr><td>pond_acct</td><td>character</td><td>NStock Acct No</td><td>Enter default acct no for non stock part PO receiving debit.</td></tr>
+<tr><td>pond_sub</td><td>character</td><td>NStock Sub Acct</td><td>Enter default sub acct no for non stock part PO receiving debit</td></tr>
+<tr><td>isd_cc</td><td>character</td><td>Cost Center</td><td>Enter the default cost center for inventory issuing debit.</td></tr>
+<tr><td>isde_acct</td><td>character</td><td>Acct No (Equip)</td><td>Enter the default acct no for inventory issuing to equip debit.</td></tr>
+<tr><td>isd_acct</td><td>character</td><td>Acct No</td><td>Enter the default acct no for inventory issuing debit.</td></tr>
+<tr><td>isd_sub</td><td>character</td><td>Sub Acct No</td><td>Enter the default sub acct no for inventory issuing debit.</td></tr>
+<tr><td>isde_sub</td><td>character</td><td>Sub Acct (Equip)</td><td>Enter the default sub acct for inventory issuing to equip debit</td></tr>
+<tr><td>mfg_po_prefix</td><td>character</td><td>PO Prefix</td><td>Enter the MFG/PRO purchase order prefix for this site.</td></tr>
+<tr><td>mtrl_gl</td><td>logical</td><td>Material GL?</td><td>Select yes to create GL transactions for inventory changes.</td></tr>
+<tr><td>labor_gl</td><td>logical</td><td>Labor GL?</td><td>Select yes to create general ledger transactions for labor.</td></tr>
+<tr><td>quality_sort</td><td>character</td><td>Quality Sort</td><td>Select position of quality users in approval groups.</td></tr>
+<tr><td>create_acct_hist</td><td>logical</td><td>Create Acct Hist?</td><td>Select yes to create account history on accounting close.</td></tr>
+<tr><td>trans_cc</td><td>character</td><td>Cost Center</td><td>Enter the transit cost center.</td></tr>
+<tr><td>adj_cc</td><td>character</td><td>Cost Center</td><td>Enter the default cost center for adjusting inventory.</td></tr>
+<tr><td>adj_acct</td><td>character</td><td>Acct No</td><td>Enter the default acct no for adjusting inventory.</td></tr>
+<tr><td>adj_sub</td><td>character</td><td>Sub Acct No</td><td>Enter the default sub acct no for adjusting inventory.</td></tr>
+<tr><td>lbd_cc</td><td>character</td><td>Cost Center</td><td>Enter the default cost center for labor debit.</td></tr>
+<tr><td>lbd_acct</td><td>character</td><td>Acct No</td><td>Enter the default acct no for labor debit.</td></tr>
+<tr><td>lbde_acct</td><td>character</td><td>Acct No (Equip)</td><td>Enter the default acct no for labor charged to equipment debit.</td></tr>
+<tr><td>lbd_sub</td><td>character</td><td>Sub Acct No</td><td>Enter the default sub acct no for labor debit.</td></tr>
+<tr><td>lbde_sub</td><td>character</td><td>Sub Acct (Equip)</td><td>Enter the default sub acct no for labor charged to equip debit.</td></tr>
+<tr><td>lbc_cc</td><td>character</td><td>Cost Center</td><td>Enter the default cost center for labor credit.</td></tr>
+<tr><td>lbc_acct</td><td>character</td><td>Acct No</td><td>Enter the default acct no for labor credit.</td></tr>
+<tr><td>lbc_sub</td><td>character</td><td>Sub Acct No</td><td>Enter the default sub acct no for labor credit.</td></tr>
+<tr><td>cust_dec03</td><td>decimal</td><td></td><td></td></tr>
+<tr><td>cust_dec04</td><td>decimal</td><td></td><td></td></tr>
+<tr><td>posd_dept</td><td>character</td><td>Stock Dept</td><td>Enter the default department for stock part PO receiving debit.</td></tr>
+<tr><td>pond_dept</td><td>character</td><td>NStock Dept</td><td>Enter default department for non stock part PO receiving debit.</td></tr>
+<tr><td>poc_dept</td><td>character</td><td>AP Liab Dept</td><td>Enter the default department for PO receiving credit.</td></tr>
+<tr><td>isd_dept</td><td>character</td><td>Dept</td><td>Enter the default department for inventory issuing debit.</td></tr>
+<tr><td>trans_acct</td><td>character</td><td>Acct No</td><td>Enter the transit account number.</td></tr>
+<tr><td>adj_dept</td><td>character</td><td>Dept</td><td>Enter the default department for adjusting inventory.</td></tr>
+<tr><td>lbd_dept</td><td>character</td><td>Dept</td><td>Enter the default department for labor debit.</td></tr>
+<tr><td>lbc_dept</td><td>character</td><td>Dept</td><td>Enter the default department for labor credit.</td></tr>
+<tr><td>trans_sub</td><td>character</td><td>Sub Acct No</td><td>Enter the transit sub account number.</td></tr>
+<tr><td>cent_whse</td><td>logical</td><td>Central Whse?</td><td>Enter yes if this site is the central warehouse for inventory.</td></tr>
+<tr><td>bt_no</td><td>character</td><td>Bill To No</td><td>Enter the default bill to number for this site.</td></tr>
+<tr><td>st_no</td><td>character</td><td>Ship To No</td><td>Enter the default ship to number for this site.</td></tr>
+<tr><td>freight_inv</td><td>logical</td><td>Inventory Freight?</td><td>Select yes to inventory freight charges.</td></tr>
+<tr><td>fr_dept</td><td>character</td><td>Freight Dept</td><td>Enter the default department for freight charges.</td></tr>
+<tr><td>fr_cc</td><td>character</td><td>Freight CC</td><td>Enter the default cost center for freight charges.</td></tr>
+<tr><td>fr_acct</td><td>character</td><td>Freight Acct No</td><td>Enter the default account number for freight charges.</td></tr>
+<tr><td>fr_sub</td><td>character</td><td>Frght Sub Acct</td><td>Enter the default sub account for freight charges.</td></tr>
+<tr><td>trans_dept</td><td>character</td><td>Dept</td><td>Enter the transit department.</td></tr>
+<tr><td>cont_gl</td><td>logical</td><td>Contract GL?</td><td>Select yes to create GL transactions for contract cost.</td></tr>
+<tr><td>projauth</td><td>logical</td><td>Proj Auth?</td><td>Select yes to require authorization before proj can be charged.</td></tr>
+<tr><td>cust_dte01</td><td>date</td><td></td><td></td></tr>
+<tr><td>cust_log01</td><td>logical</td><td></td><td></td></tr>
+<tr><td>req_code</td><td>character</td><td>Requestor</td><td>Enter the emp to appear as requestor on sole source reqs.</td></tr>
+<tr><td>notify</td><td>character</td><td>Notify</td><td>Enter the user/group to appear as notify on sole source reqs.</td></tr>
+<tr><td>auto</td><td>character</td><td>Automatically</td><td>Select option to automatically perform for sole source stock.</td></tr>
+<tr><td>mtrl_ovhd</td><td>character</td><td>OH Group</td><td>Enter site default overhead group to credit on material expense</td></tr>
+<tr><td>ns_ovhd</td><td>character</td><td>OH Group</td><td>Enter site default overhead grp to credit on nonstock expense.</td></tr>
+<tr><td>upd_ovhd</td><td>logical</td><td>Upd OH Group?</td><td>Select yes to allow the update of OH groups when charging cost.</td></tr>
+<tr><td>calc_tax</td><td>logical</td><td>CalculateTax?</td><td>Select yes for MLS to calculate tax.</td></tr>
+<tr><td>direct_tax</td><td>logical</td><td>Direct Pay Tax?</td><td></td></tr>
+<tr><td>tax_accrued</td><td>logical</td><td>Tax Accrued?</td><td></td></tr>
+<tr><td>tax_inv</td><td>logical</td><td>Inventory Tax?</td><td></td></tr>
+<tr><td>round_dept</td><td>character</td><td>Dept</td><td>Enter the site department for rounding charges.</td></tr>
+<tr><td>round_cc</td><td>character</td><td>Cost Center</td><td>Enter the site cost center for rounding charges.</td></tr>
+<tr><td>round_acct</td><td>character</td><td>Acct No</td><td>Enter the site account number for rounding charges.</td></tr>
+<tr><td>round_sub</td><td>character</td><td>Sub Acct No</td><td>Enter the site sub account number for rounding charges.</td></tr>
+<tr><td>nstock_tax</td><td>logical</td><td>Non Stock Tax?</td><td></td></tr>
+<tr><td>tax_dept</td><td>character</td><td>Dept</td><td>Enter the tax expense department for this site.</td></tr>
+<tr><td>tax_cc</td><td>character</td><td>Cost Center</td><td>Enter the tax expense cost center for this site.</td></tr>
+<tr><td>tax_acct</td><td>character</td><td>Acct No</td><td>Enter the tax expense account number for this site.</td></tr>
+<tr><td>tax_sub</td><td>character</td><td>Sub Acct No</td><td>Enter the tax expense sub account number for this site.</td></tr>
+<tr><td>fr_charge</td><td>character</td><td></td><td></td></tr>
+<tr><td>var_dept</td><td>character</td><td>Dept</td><td>Enter the site variance department for standard cost.</td></tr>
+<tr><td>var_cc</td><td>character</td><td>Cost Center</td><td>Enter the site variance cost center for standard cost.</td></tr>
+<tr><td>var_acct</td><td>character</td><td>Acct No</td><td>Enter the site variance account number for standard cost.</td></tr>
+<tr><td>var_sub</td><td>character</td><td>Sub Acct No</td><td>Enter the site variance sub account number for standard cost.</td></tr>
+<tr><td>nstock_freight</td><td>decimal</td><td>NStock Freight</td><td>Enter the site default estimated freight % for non stock reqs.</td></tr>
+<tr><td>print_mthd</td><td>character</td><td></td><td></td></tr>
+<tr><td>usage_issue</td><td>logical</td><td></td><td>Select to include issues as usage.</td></tr>
+<tr><td>usage_return</td><td>logical</td><td></td><td>Select to include returns to inventory as usage.</td></tr>
+<tr><td>usage_incr</td><td>logical</td><td></td><td>Select to include positive adjustments as usage.</td></tr>
+<tr><td>usage_decr</td><td>logical</td><td></td><td>Select to include negative adjustments as usage.</td></tr>
+<tr><td>usage_reloc</td><td>logical</td><td></td><td>Select to include relocations as usage.</td></tr>
+<tr><td>purge_squawks</td><td>integer</td><td>Purge Days</td><td>Enter the no of days of history to keep for service requests.</td></tr>
+<tr><td>notify_days</td><td>integer</td><td>Notify Days</td><td>Enter number of days before sending mail for service requests.</td></tr>
+<tr><td>eqlk_parent</td><td>logical</td><td>Parent Lookup?</td><td>Select yes to run the parent-child tree for Equipment Lookup.</td></tr>
+<tr><td>inter_dept</td><td>character</td><td>Dept</td><td>Enter the default inter-company department for this site.</td></tr>
+<tr><td>inter_cc</td><td>character</td><td>Cost Center</td><td>Enter the default inter-company cost center for this site.</td></tr>
+<tr><td>inter_acct</td><td>character</td><td>Acct No</td><td>Enter the default inter-company account number for this site.</td></tr>
+<tr><td>inter_sub</td><td>character</td><td>Sub Acct No</td><td>Enter the default inter-company sub account for this site.</td></tr>
+<tr><td>poauth</td><td>logical</td><td>PO Auth?</td><td>Select yes to require authorization before POs can be ordered.</td></tr>
+<tr><td>reqauth</td><td>logical</td><td>Req Auth?</td><td>Select yes to require authorization before reqs can be ordered.</td></tr>
+<tr><td>appr_mthd</td><td>character</td><td>Appr Mthd</td><td>Select the method to use for selecting req approval groups.</td></tr>
+<tr><td>tax_on_rec</td><td>logical</td><td>Tax on Receipt?</td><td></td></tr>
+<tr><td>pick_ticket</td><td>logical</td><td>Prompt for Pick Ticket?</td><td>Select yes to prompt for the pick ticket.</td></tr>
+<tr><td>proj_percent</td><td>integer</td><td>Spending Limit</td><td>Enter % by which a project's cost can exceed its spending limit</td></tr>
+<tr><td>wph_close</td><td>logical</td><td>Auto Close Stores?</td><td>Select yes to auto close stores reqs when all parts are issued.</td></tr>
+<tr><td>warr_warn_days</td><td>integer</td><td>Warning Days</td><td>Enter the number of days before expiration to send warning mail</td></tr>
+<tr><td>warr_dept_code</td><td>character</td><td>Dept</td><td>Enter the warranty expense department for this site.</td></tr>
+<tr><td>warr_acct_no</td><td>character</td><td>Acct No</td><td>Enter the warranty expense account number for this  site.</td></tr>
+<tr><td>warr_cc</td><td>character</td><td>Cost Center</td><td>Enter the warranty expense cost center for this site.</td></tr>
+<tr><td>warr_sub_acct_no</td><td>character</td><td>Sub Acct No</td><td>Enter the warranty expense sub account no for this site.</td></tr>
+<tr><td>name</td><td>character</td><td>Company Name</td><td>Enter the company name to appear on management reports.</td></tr>
+<tr><td>name2</td><td>character</td><td>Company Name</td><td>Enter the company name to appear on management reports.</td></tr>
+<tr><td>name3</td><td>character</td><td>Company Name</td><td>Enter the company name to appear on management reports.</td></tr>
+<tr><td>name4</td><td>character</td><td>Company Name</td><td>Enter the company name to appear on management reports.</td></tr>
+<tr><td>name5</td><td>character</td><td>Company Name</td><td>Enter the company name to appear on management reports.</td></tr>
+<tr><td>name6</td><td>character</td><td>Company Name</td><td>Enter the company name to appear on management reports.</td></tr>
+<tr><td>name7</td><td>character</td><td>Company Name</td><td>Enter the company name to appear on management reports.</td></tr>
+<tr><td>create_part_hist</td><td>logical</td><td>Create Inv Hist?</td><td>Select yes to create iventory history on accounting close.</td></tr>
+<tr><td>print_pocl</td><td>character</td><td>Print Clauses?</td><td>Select before to print clauses before PO line items.</td></tr>
+<tr><td>mfg_manual_gl</td><td>logical</td><td>Manual GL?</td><td>Select yes to default to sending manual GL's to MFG/PRO.</td></tr>
+<tr><td>purge_cim</td><td>integer</td><td>CIM Purge Days</td><td>Enter the no of days of history to keep for CIM equip readings.</td></tr>
+<tr><td>mfg_ignore_tool</td><td>logical</td><td>Ignore Tools?</td><td>Select yes to ignore tools when mapping equipment.</td></tr>
+<tr><td>mfg_sep_tool</td><td>logical</td><td>Separate Tools?</td><td>Select yes to update tools separately when mapping equipment.</td></tr>
+<tr><td>Equip_to_pm</td><td>logical</td><td>Equip to PM?</td><td>Select yes to copy equipment attachments to PM templates.</td></tr>
+<tr><td>Equip_to_wo</td><td>logical</td><td>Equip to WO?</td><td>Select yes to copy equipment attachments to work orders.</td></tr>
+<tr><td>pm_to_wo</td><td>logical</td><td>PM to WO?</td><td>Select yes to copy PM template attachments to work orders.</td></tr>
+<tr><td>inv_to_req</td><td>logical</td><td>Inv to Req?</td><td>Select yes to copy inventory attachments to requisitions.</td></tr>
+<tr><td>rev_pm</td><td>logical</td><td>PM Rev?</td><td>Select yes to automatically create revisions for PM templates.</td></tr>
+<tr><td>rev_equip</td><td>logical</td><td>Equip Rev?</td><td>Select yes to automatically create revisions for equipment.</td></tr>
+<tr><td>rev_wo</td><td>logical</td><td>WO Rev?</td><td>Select yes to automatically create revisions for work orders.</td></tr>
+<tr><td>upd_appr_grp</td><td>logical</td><td>Upd Appr Grp</td><td>Select yes to allow the update of appr groups for reqs and POs.</td></tr>
+<tr><td>stck_create</td><td>character</td><td>Stck Repl Create</td><td>Select to create single reqs or multi-line reqs from stock runs</td></tr>
+<tr><td>rev_po</td><td>logical</td><td>PO Rev?</td><td>Select yes to automatically create revisions for POs.</td></tr>
+<tr><td>rev_req</td><td>logical</td><td>Req Rev?</td><td>Select yes to automatically create revisions for requisitions.</td></tr>
+<tr><td>rev_vend</td><td>logical</td><td>Vendor Rev?</td><td>Select yes to prompt for vendor revisions for ordered POs.</td></tr>
+<tr><td>inv_to_wo</td><td>logical</td><td>Inv to WO?</td><td>Select yes to copy inv attachments to fabricated work orders.</td></tr>
+<tr><td>purge_prod</td><td>integer</td><td>Prod Purge Days</td><td>Enter the days of history to keep for equipment production rdgs</td></tr>
+<tr><td>calc_budg</td><td>character</td><td>Calc % Budget</td><td>Select which value to use to calculate percentage of budget.</td></tr>
+<tr><td>over_budg</td><td>character</td><td>Use Over Budget</td><td>Select period to use to determine if over budget limit applies.</td></tr>
+<tr><td>reqauth_hier</td><td>logical</td><td>Use Hierarchy?</td><td>Select yes to use hierarchy to get req approval group on auth.</td></tr>
+<tr><td>appr_mthd2</td><td>character</td><td>2nd Appr Mthd</td><td>Select the 2nd method to use for selecting req approval groups.</td></tr>
+<tr><td>appr_mthd3</td><td>character</td><td>3rd Appr Mthd</td><td>Select the 3rd method to use for selecting req approval groups.</td></tr>
+<tr><td>rev_proj</td><td>logical</td><td>Proj Rev?</td><td>Select yes to automatically create revisions for projects.</td></tr>
+<tr><td>calc_spend_est</td><td>character</td><td>Calc % Spnd Est</td><td>Select which value to use to calculate % of spending estimate.</td></tr>
+<tr><td>wphauth</td><td>character</td><td>Stores Auth?</td><td>Select which stores reqs require auth before issue of parts.</td></tr>
+<tr><td>wph_appr_mthd</td><td>character</td><td>Appr Mthd</td><td>Select method to use for selecting stores req approval groups.</td></tr>
+<tr><td>mfg_blank_po_site</td><td>logical</td><td>Blank PO Site?</td><td>Select yes to blank out the site when sending POs to MFG/PRO.</td></tr>
+<tr><td>mfg_custom_oper</td><td>character</td><td>Custom Field</td><td>Select the op_hist field to mark which records MLS has read.</td></tr>
+<tr><td>mfg_op_trans</td><td>integer</td><td>Trans</td><td>Enter the Trans ID to start with when reading op_hist records.</td></tr>
+<tr><td>mfg_create_conv</td><td>logical</td><td>Create Conv?</td><td>Select yes to create DUOM/Item conv. when equip DUOM is added.</td></tr>
+<tr><td>mfg_batch_pf_file</td><td>character</td><td>Batch Job PF File</td><td>Enter the PF file (including path) to use for qad/duomload.p.</td></tr>
+<tr><td>dept_cons</td><td>character</td><td>Cons Asset Dept</td><td>Enter the default consignment asset department for this site.</td></tr>
+<tr><td>cc_cons</td><td>character</td><td>Cons Asset CC</td><td>Enter the default consignment asset cost center for this site.</td></tr>
+<tr><td>acct_cons</td><td>character</td><td>Cons Asset Acct</td><td>Enter the default consignment asset account no for this site.</td></tr>
+<tr><td>sub_cons</td><td>character</td><td>Cons Asset Sub</td><td>Enter the default consignment asset sub account for this site.</td></tr>
+<tr><td>dept_cons_adj</td><td>character</td><td>Cons Adj Dept</td><td>Enter the default consignment adjustment dept for this site.</td></tr>
+<tr><td>cc_cons_adj</td><td>character</td><td>Cons Adj CC</td><td>Enter default consignment adjustment cost cntr for this site.</td></tr>
+<tr><td>acct_cons_adj</td><td>character</td><td>Cons Adj Acct</td><td>Enter the default consignment adjustment account for this site.</td></tr>
+<tr><td>sub_acct_cons_adj</td><td>character</td><td>Cons Adj Sub</td><td>Enter the default consignment adjustment sub acct for this site</td></tr>
+<tr><td>horizontal</td><td>logical</td><td></td><td></td></tr>
+<tr><td>so_cc</td><td>character</td><td>Sales Order Cost Center</td><td></td></tr>
+<tr><td>so_acct</td><td>character</td><td>Sales Order Acct No</td><td></td></tr>
+<tr><td>so_sub_acct</td><td>character</td><td>Sales Order Sub Acct No</td><td></td></tr>
+<tr><td>pr_incl_tax</td><td>logical</td><td>Project Include Tax?</td><td>Include tax in project material and contract cost calc?</td></tr>
+<tr><td>pack_slip_by_vendor</td><td>logical</td><td>Packing Slip by Vendor</td><td></td></tr>
+<tr><td>create_pc</td><td>character</td><td>Release PC</td><td></td></tr>
+<tr><td>expense_recv</td><td>logical</td><td>Received</td><td></td></tr>
+<tr><td>expense_comm</td><td>logical</td><td>Committed</td><td></td></tr>
+<tr><td>expense_auth</td><td>logical</td><td>Auth Reqs</td><td></td></tr>
+<tr><td>expense_plan</td><td>logical</td><td>Planned Reqs</td><td></td></tr>
+<tr><td>bo_auto_order_on_release</td><td>logical</td><td>Auto Order on Release</td><td>A release will auto Order the PO, otherwise it will be authoriz</td></tr>
+<tr><td>cim_rdg_usg</td><td>character</td><td>CIM Load</td><td>Select which value should be read from the CIM load data file.</td></tr>
+<tr><td>spend_perc_unauth</td><td>logical</td><td>Spend % Unauth Purchases</td><td></td></tr>
+<tr><td>spend_perc_auth</td><td>logical</td><td>Spend % Auth Purchases</td><td></td></tr>
+<tr><td>spend_perc_comm</td><td>logical</td><td>Spend % Committed Purchases</td><td></td></tr>
+<tr><td>budg_perc_unauth</td><td>logical</td><td>Budget % Unauth Purchases</td><td></td></tr>
+<tr><td>budg_perc_auth</td><td>logical</td><td>Budget % Auth Purchases</td><td></td></tr>
+<tr><td>budg_perc_comm</td><td>logical</td><td>Budget % Committed Purchases</td><td></td></tr>
+<tr><td>est_avail_fund_auth</td><td>logical</td><td>Auth Purch</td><td></td></tr>
+<tr><td>est_avail_fund_plan</td><td>logical</td><td>Unauth Purch</td><td></td></tr>
+<tr><td>est_avail_plan_lab</td><td>logical</td><td>Planned Labor</td><td></td></tr>
+<tr><td>est_avail_comm</td><td>logical</td><td>Committed</td><td></td></tr>
+<tr><td>est_avail_int_mtrl</td><td>logical</td><td>Planned Internal Material</td><td></td></tr>
+<tr><td>csv_browse_export</td><td>logical</td><td>CSV Browse Export</td><td></td></tr>
+<tr><td>xml_loc</td><td>character</td><td>XML Export File Location</td><td></td></tr>
+<tr><td>name8</td><td>character</td><td>Company Name</td><td>Enter the company name to appear on management reports.</td></tr>
+<tr><td>name9</td><td>character</td><td>Company Name</td><td>Enter the company name to appear on management reports.</td></tr>
+<tr><td>name10</td><td>character</td><td>Company Name</td><td>Enter the company name to appear on management reports.</td></tr>
+<tr><td>pr_app_margin</td><td>logical</td><td>Approve by Margin</td><td></td></tr>
+<tr><td>pr_margin_tol</td><td>integer</td><td>Margin Decrease Tol %</td><td></td></tr>
+<tr><td>equip_to_milstep</td><td>logical</td><td>Equip to MIL Step?</td><td>Select yes to copy equipment attachments to Master Instruction</td></tr>
+<tr><td>req_auth_exceed_spending</td><td>logical</td><td>Allow Req Auth when Spending Limit Exceeded</td><td></td></tr>
+<tr><td>req_auth_no_prompt_same_user</td><td>logical</td><td>Suppress Req Auth Prompt</td><td></td></tr>
+<tr><td>print_ord_po</td><td>logical</td><td>Only Print Ordered PO's</td><td></td></tr>
+<tr><td>po_auth_no_prompt_same_user</td><td>logical</td><td>Suppress PO Auth Prompt</td><td></td></tr>
+<tr><td>WarnIncompleteSteps</td><td>logical</td><td></td><td></td></tr>
+<tr><td>use_req_proj_limit</td><td>logical</td><td>Req Proj Limit?</td><td>Select yes to limit requisition project spending.</td></tr>
+<tr><td>acquisition_cost</td><td>character</td><td>Acquisition Cost</td><td>Select an option for the acquisition cost.</td></tr>
+<tr><td>incl_tax_acq</td><td>logical</td><td>Include Tax?</td><td>Select yes to include tax in acquisition cost.</td></tr>
+<tr><td>asset_acct_interface</td><td>logical</td><td>Asset Acct Interface?</td><td>Select yes for asset accouting interface.</td></tr>
+<tr><td>PricedOnly</td><td>logical</td><td>Priced Only</td><td>Select option Priced Only for Sole Source</td></tr>
+<tr><td>print_label</td><td>logical</td><td>Print Label?</td><td>Enter the Print Label default value for Label Printing</td></tr>
+<tr><td>req_mand_bo</td><td>logical</td><td></td><td></td></tr>
+<tr><td>RequireCompletion</td><td>logical</td><td>Require Completion</td><td>Check to box to require Instruction List steps to be completed.</td></tr>
+</table>
+<a href="index.html">Back to Main</a>
+</body></html>

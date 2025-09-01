@@ -1,0 +1,101 @@
+<html><head><title>domain</title></head><body>
+<h1>Table: domain</h1>
+<p><b>Description:</b> Domain</p>
+<table border="1"><tr><th>Field Name</th><th>Type</th><th>Column Label</th><th>Help</th></tr>
+<tr><td>dom_code</td><td>character</td><td></td><td></td></tr>
+<tr><td>description</td><td>character</td><td>Description</td><td>Enter the domain description.</td></tr>
+<tr><td>add_id</td><td>character</td><td>Add User ID</td><td></td></tr>
+<tr><td>add_date</td><td>date</td><td>Add Date</td><td></td></tr>
+<tr><td>add_time</td><td>integer</td><td>Add Time</td><td></td></tr>
+<tr><td>chg_id</td><td>character</td><td>Chg User ID</td><td></td></tr>
+<tr><td>chg_date</td><td>date</td><td>Chg Date</td><td></td></tr>
+<tr><td>chg_time</td><td>integer</td><td>Chg Time</td><td></td></tr>
+<tr><td>type</td><td>character</td><td></td><td></td></tr>
+<tr><td>active</td><td>logical</td><td>Active?</td><td>Enter 'yes' to make this domain active.</td></tr>
+<tr><td>base_curr</td><td>character</td><td>Base Currency</td><td>Enter the base currency for MLS.</td></tr>
+<tr><td>lang_code</td><td>character</td><td>Language</td><td>Enter the language code.</td></tr>
+<tr><td>user1</td><td>character</td><td></td><td></td></tr>
+<tr><td>user2</td><td>character</td><td></td><td></td></tr>
+<tr><td>post_equip</td><td>logical</td><td>Post Equip List?</td><td>Select yes to post issued parts to the equipment BOM.</td></tr>
+<tr><td>nstock_bom</td><td>logical</td><td>NStock BOM?</td><td>Select yes to post issued nonstock parts to the equipment BOM.</td></tr>
+<tr><td>cim_rdg_usg</td><td>character</td><td>CIM Load</td><td>Select which value should be read from the CIM load data file.</td></tr>
+<tr><td>woauth</td><td>logical</td><td>WO Auth?</td><td>Select yes to require authorization before charging cost to WOs</td></tr>
+<tr><td>srauth</td><td>logical</td><td>SR Auth?</td><td>Select yes to require authorization before SRs can become WOs.</td></tr>
+<tr><td>wo_reopen</td><td>logical</td><td>Reopen WO's?</td><td>Select 'yes' to allow the reopening of work orders.</td></tr>
+<tr><td>pr_reopen</td><td>logical</td><td>Reopen Projects?</td><td>Select yes to allow the reopening of projects and jobs.</td></tr>
+<tr><td>wk_sun</td><td>logical</td><td>Sunday</td><td>Is Sunday a maintenance dept work day?</td></tr>
+<tr><td>wk_mon</td><td>logical</td><td>Monday</td><td>Is Monday a maintenance dept work day?</td></tr>
+<tr><td>wk_tues</td><td>logical</td><td>Tuesday</td><td>Is Tuesday a maintenance dept work day?</td></tr>
+<tr><td>wk_wed</td><td>logical</td><td>Wednesday</td><td>Is Wednesday a maintenance dept work day?</td></tr>
+<tr><td>wk_thurs</td><td>logical</td><td>Thursday</td><td>Is Thursday a maintenance dept work day?</td></tr>
+<tr><td>wk_fri</td><td>logical</td><td>Friday</td><td>Is Friday a maintenance dept work day?</td></tr>
+<tr><td>wk_sat</td><td>logical</td><td>Saturday</td><td>Is Saturday a maintenance dept work day?</td></tr>
+<tr><td>pm_wk_day</td><td>logical</td><td>PMs on Work Days</td><td>Should PMs be shifted to maintenance dept work days?</td></tr>
+<tr><td>cost</td><td>character</td><td>Inv Cost Mthd</td><td>Select the method for calculating inventory costs.</td></tr>
+<tr><td>cons_res</td><td>logical</td><td>Cons Reserves?</td><td>Select yes to consider reserves in stock replenishment.</td></tr>
+<tr><td>cons_short</td><td>logical</td><td>Cons Res/Short?</td><td>Select yes to consider reserves/shorts in stock replenishment.</td></tr>
+<tr><td>cons_direct</td><td>logical</td><td>Cons Dir Chg?</td><td>Select yes to consider reserved orders in stock replenishment.</td></tr>
+<tr><td>reserve</td><td>logical</td><td>Reserve Inv</td><td>Select yes to automatically reserve inventory for work orders.</td></tr>
+<tr><td>wph_reopen</td><td>logical</td><td>Reopen Stores?</td><td>Select yes to allow the reopening of stores requisition lists.</td></tr>
+<tr><td>a_perc</td><td>integer</td><td>A Percent</td><td>Enter the percentage of parts value to be type A.</td></tr>
+<tr><td>a_days</td><td>integer</td><td>A Days</td><td>Enter the number of days between phys inv for type A parts.</td></tr>
+<tr><td>b_perc</td><td>integer</td><td>B Percent</td><td>Enter the percentage of parts value to be type B.</td></tr>
+<tr><td>b_days</td><td>integer</td><td>B Days</td><td>Enter the number of days between phys inv for type B parts.</td></tr>
+<tr><td>c_perc</td><td>integer</td><td>C Percent</td><td>Enter the percentage of parts value to be type C.</td></tr>
+<tr><td>c_days</td><td>integer</td><td>C Days</td><td>Enter the number of days between phys inv for type C parts.</td></tr>
+<tr><td>transit</td><td>logical</td><td>Transit</td><td>Select yes to have inventory relocations go through transit.</td></tr>
+<tr><td>diff_period</td><td>logical</td><td>Diff Acct Period</td><td>Select yes to allow transactions in different acct periods.</td></tr>
+<tr><td>nstock_uom</td><td>character</td><td>NStock UOM</td><td>Enter the default nonstock UOM for ordering parts.</td></tr>
+<tr><td>buyer_percent</td><td>integer</td><td>Buyer Limit Increase</td><td>Enter % that a buyer can increase the req cost w/o re-routing.</td></tr>
+<tr><td>buyer_dollar</td><td>integer</td><td>Buyer Limit Increase</td><td>Enter amount that a buyer can increase req cost w/o re-routing.</td></tr>
+<tr><td>rec_percent</td><td>integer</td><td>Receipt Limit</td><td>Enter % that can be received above the req qty ordered.</td></tr>
+<tr><td>rec_dollar</td><td>integer</td><td>Receipt Limit</td><td>Enter amount that can be received above the req qty ordered.</td></tr>
+<tr><td>any_buyer</td><td>logical</td><td>Any Buyer?</td><td>Select yes to allow any buyer to modify an authorized PO or req</td></tr>
+<tr><td>rec_limit</td><td>logical</td><td>Receipt Limit</td><td>Select yes to enter a receipt limit.</td></tr>
+<tr><td>upd_recv</td><td>logical</td><td>Upd Receiver?</td><td>Select yes to allow the update of purchasing receivers.</td></tr>
+<tr><td>po_reopen</td><td>logical</td><td>Reopen PO/Reqs?</td><td>Select yes to allow the reopening of purchase orders and reqs.</td></tr>
+<tr><td>purge_hrs</td><td>integer</td><td>Batch Purge Hrs</td><td>Enter the no of hours history to keep when purging batch jobs.</td></tr>
+<tr><td>rev_list</td><td>logical</td><td>Mstr List Rev?</td><td>Select yes to automatically create revisions for master lists.</td></tr>
+<tr><td>MinBatchAgents</td><td>integer</td><td>Min Agents</td><td>Enter the minimum number of batch agents.</td></tr>
+<tr><td>MaxBatchAgents</td><td>integer</td><td>Max Agents</td><td>Enter the maximum number of batch agents.</td></tr>
+<tr><td>InitBatchAgents</td><td>integer</td><td>Init Agents</td><td>Enter the initial number of batch agents.</td></tr>
+<tr><td>mfg_upd_po</td><td>character</td><td>Create PO When?</td><td>Select at what point to create a purchase order in MFG/PRO.</td></tr>
+<tr><td>mfg_cd_type</td><td>character</td><td>Clause Type</td><td>Enter the type of clauses to download from MFG/PRO or * for all</td></tr>
+<tr><td>mfg_ship_to</td><td>character</td><td>Ship To</td><td>Enter the MFG/PRO address type given to ship to addresses.</td></tr>
+<tr><td>mfg_bill_to</td><td>character</td><td>Bill To</td><td>Enter the MFG/PRO address type given to bill to addresses.</td></tr>
+<tr><td>mfg_use_eir</td><td>logical</td><td>Use EIR?</td><td>Select yes to use MFG/PRO's EIR account for receipt credits.</td></tr>
+<tr><td>software_recv</td><td>character</td><td>Receiver?</td><td>Select the software to use for receiver number generation.</td></tr>
+<tr><td>recv_prefix</td><td>character</td><td>MLS Recv Prefix</td><td>Enter the prefix for MLS receiver numbers.</td></tr>
+<tr><td>eir_acct_no</td><td>character</td><td>Acct No</td><td>Enter the new account number.</td></tr>
+<tr><td>eir_sub_acct_no</td><td>character</td><td>Sub Acct No</td><td>Enter the new sub account number.</td></tr>
+<tr><td>part_description_protected</td><td>logical</td><td>Part Description Protected</td><td></td></tr>
+<tr><td>so_gl</td><td>logical</td><td>Sale Order GL</td><td></td></tr>
+<tr><td>so_prefix</td><td>character</td><td>Sales Order No Prefix</td><td></td></tr>
+<tr><td>so_begin</td><td>integer</td><td>Sales Order No Begin</td><td></td></tr>
+<tr><td>so_end</td><td>integer</td><td>Sales Order No End</td><td></td></tr>
+<tr><td>daybook_code</td><td>character</td><td>Daybook Code</td><td></td></tr>
+<tr><td>rfq_expire_notify_days</td><td>integer</td><td>RFQ Expire Notify Days</td><td></td></tr>
+<tr><td>saf_concept_1</td><td>character</td><td>SAF 1</td><td></td></tr>
+<tr><td>saf_concept_2</td><td>character</td><td>SAF 2</td><td></td></tr>
+<tr><td>saf_concept_3</td><td>character</td><td>SAF 3</td><td></td></tr>
+<tr><td>saf_concept_4</td><td>character</td><td>SAF 4</td><td></td></tr>
+<tr><td>saf_concept_5</td><td>character</td><td>SAF 5</td><td></td></tr>
+<tr><td>require_cc</td><td>logical</td><td>Require CC</td><td></td></tr>
+<tr><td>require_acct_no</td><td>logical</td><td>require Acct</td><td></td></tr>
+<tr><td>require_sub_acct_no</td><td>logical</td><td>Require Sub Acct</td><td></td></tr>
+<tr><td>bo_limit_to_single_vendor</td><td>logical</td><td>Limit to Single Vendor</td><td>limit creation to single BO to a single vendor/part per site</td></tr>
+<tr><td>bo_vend_part</td><td>logical</td><td>Limit BO per Vend/Part</td><td></td></tr>
+<tr><td>inc_proj_on_iss</td><td>character</td><td>Inc Proj on Iss</td><td>Select when to include the Project No for issue transactions.</td></tr>
+<tr><td>inc_proj_on_labor</td><td>character</td><td>Inc Proj on Labor</td><td>Select when to include the Project No for labor transactions.</td></tr>
+<tr><td>inc_proj_on_rec</td><td>character</td><td>Inc Proj on Rec</td><td>Select when to include the Project No for receipt transactions.</td></tr>
+<tr><td>only_vendor_curr</td><td>logical</td><td>Use Only Vendor Currencies</td><td></td></tr>
+<tr><td>mfg_budg_code</td><td>character</td><td>Budget Code</td><td>Enter the MFG/PRO budget code to use on budget download.</td></tr>
+<tr><td>buyer_comm</td><td>logical</td><td>Buyer/Commodity Purchasing?</td><td></td></tr>
+<tr><td>enforce_buyer_limit</td><td>logical</td><td>Enforce Buyer Limits?</td><td>Select yes to enforce buyer limits.</td></tr>
+<tr><td>buyer_percent_dec</td><td>integer</td><td>Buyer Limit Decrease</td><td>Enter % that a buyer can decrease req cost w/o re-routing.</td></tr>
+<tr><td>buyer_dollar_dec</td><td>integer</td><td>Buyer Limit Decrease</td><td>Enter amount that a buyer can decrease req cost w/o re-routing.</td></tr>
+<tr><td>blanket_buyer_limit</td><td>logical</td><td>Use Enforce Buyer Limits for BO?</td><td>Select yes to Use Enforce Buyer Limits for BO.</td></tr>
+<tr><td>IsEnabled</td><td>logical</td><td>Is Enabled</td><td></td></tr>
+</table>
+<a href="index.html">Back to Main</a>
+</body></html>
